@@ -1,0 +1,18 @@
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <h2>{{todaysDataTime}}</h2>
+  <div class="input">
+    <input id="task"type="text" #newToDo placeholder="Your Task">
+    <button class="b1" (click)="addToDo(newToDo.value)"(click)="clear()"><i class="fas fa-plus"></i></button>
+  </div>
+  <div class="list" @slideInOut *ngFor="let todo of todos">
+    <div>
+      <p class="task">{{todo.item}}</p>
+    </div>
+    <div>
+    <button class="b2" (click)="delete(todo)"><i class="fas fa-trash-alt"></i></button>
+    </div>
+    
+  </div>
+</div>

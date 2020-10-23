@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 70vh;
+  width: 60%;
+  background-color: transparent;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 7rem;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-color: transparent;
+  border-radius: 5px 5px 0 0;
+  padding: 1rem;
+  font-family: 'Sansita Swashed', cursive;
+  -webkit-animation: slideInDown;
+          animation: slideInDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 16px;
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.container .input {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Sansita Swashed', cursive;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container .input input {
+  width: 50%;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+
+.container .input input:focus {
+  background-color: white;
+  outline: none;
+}
+
+.container .input .b1 {
+  padding: 5px;
+  border: none;
+  margin: 5px;
+  background-color: transparent;
+  outline: none;
+}
+
+.container .input .b1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.list {
+  width: 50%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list .task {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.list .b2 {
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  background-color: transparent;
+  outline: none;
+}
+
+.list .b2:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=app.component.css.map */

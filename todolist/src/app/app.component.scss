@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    height: 70vh;
+    width: 60%;
+    background-color:transparent;
+    margin: 0 auto 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    
+    h1 {
+    text-align: center;
+    font-size: 7rem;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: transparent;
+    border-radius: 5px 5px 0 0;
+    padding: 1rem;
+    font-family: 'Sansita Swashed', cursive;
+    animation: slideInDown;
+    animation-duration: 2s;
+    }
+        
+    h2 {
+        text-align: center;
+        margin: 10px 0;
+        padding: 5px;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 16px;
+        animation: zoomIn;
+        animation-duration: 2s;
+    }
+    .input {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Sansita Swashed', cursive;
+        padding: 5px;
+        margin: 5px;
+        input{
+            width: 50%;
+            margin: 10px;
+            border: none;
+            padding: 10px;
+            font-size: 20px;
+            text-transform: capitalize;
+            background-color: transparent;
+            &:focus {
+                background-color: white;
+                outline: none;
+            }
+            
+        }
+    .b1 {
+            padding: 5px;
+            border: none;
+            margin: 5px;
+            background-color: transparent;
+            outline: none;
+            &:hover {
+                transform: scale(1.5);
+            }
+            
+        }
+    
+    
+}
+}
+
+.list {
+    width: 50%;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    .task{
+        text-transform: capitalize;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Sansita Swashed', cursive;
+    }
+    .b2 {
+        padding: 10px;
+        border: none;
+        margin: 5px;
+        background-color: transparent;
+        outline: none;
+        &:hover {
+        transform: scale(1.5);
+    }
+    }
+}
